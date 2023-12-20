@@ -12,6 +12,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         FBAudienceNetworkAds.initialize(with: nil, completionHandler: nil)
 
         FBAdSettings.setAdvertiserTrackingEnabled(true)
+        FBAdSettings.addTestDevice(FBAdSettings.testDeviceHash())
 
         return true
     }

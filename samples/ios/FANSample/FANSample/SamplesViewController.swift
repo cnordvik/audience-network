@@ -2,7 +2,7 @@
 
 import UIKit
 import FBAudienceNetwork
-
+import AppTrackingTransparency
 final class SamplesViewController: UITableViewController {
 
     // MARK: - Types
@@ -42,6 +42,9 @@ final class SamplesViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.tableFooterView = sdkInfoLabel
+        ATTrackingManager.requestTrackingAuthorization { status in
+
+        }
     }
 
     private func createViewController(for adFormat: AdFormatInfo) -> UIViewController? {
