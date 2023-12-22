@@ -84,7 +84,7 @@ final class BannerSampleViewController: UIViewController {
     }
 
     private func createNewAd() -> FBAdView {
-        let adView = FBAdView(placementID: "204905456199565_2276019375754819", adSize: adSize, rootViewController: self)
+        let adView = FBAdView(placementID: "IMG_16_9_APP_INSTALL#2029572424039676_2029575434039375", adSize: adSize, rootViewController: self)
         adView.delegate = self
         return adView
     }

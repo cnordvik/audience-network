@@ -123,7 +123,7 @@ final class FullscreenAdSampleViewController: UIViewController {
     }
 
     private func createNewAd() -> FullscreenAd {
-        let placementID = "YOUR_PLACEMENT_ID"
+        let placementID = "IMG_16_9_APP_INSTALL#204905456199565_2276019375754819"
         switch adType {
         case .interstitial:
             return FBInterstitialAd(placementID: placementID)

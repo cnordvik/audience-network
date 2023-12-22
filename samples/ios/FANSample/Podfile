@@ -4,5 +4,5 @@ platform :ios, '17.0'
 use_frameworks!
 
 target 'FANSample' do
-  pod 'FBAudienceNetwork'
+	pod 'FBAudienceNetwork', '~>6.14'
 end

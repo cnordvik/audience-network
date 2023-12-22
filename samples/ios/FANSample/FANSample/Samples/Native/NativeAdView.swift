@@ -47,7 +47,7 @@ final class NativeAdView: UIView {
 
         // Create a native ad request with a unique placement ID (generate your own on the Facebook app settings).
         // Use different ID for each ad placement in your app.
-        let ad = FBNativeAd(placementID: "YOUR_PLACEMENT_ID")
+        let ad = FBNativeAd(placementID: "IMG_16_9_APP_INSTALL#204905456199565_2276019375754819")
 
         // Set the delegate of the ad object before loading the ad
         ad.delegate = self

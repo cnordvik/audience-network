@@ -6,4 +6,6 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-include ':KotlinAdUnitsSample'
+package com.mobilefootie.wc2010.models
+
+class RecyclerPostItem(val postContent: String)
